@@ -7,7 +7,7 @@
  */
 public class LinkedList {
     Node first;
-
+    int size;
     /**
      * Constructor to create an empty list.
      */
@@ -21,6 +21,7 @@ public class LinkedList {
      * @param newNode
      */
     public void addLast(Node newNode) {
+        size++;
 
     }
 
@@ -40,7 +41,7 @@ public class LinkedList {
      * @return
      */
     public int size() {
-        return 0;
+        return size;
     }
 
     /**
